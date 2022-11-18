@@ -1,0 +1,220 @@
+/* Generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 217, 204);
+}
+
+header {
+    background-color: rgb(204, 40, 40);
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header ul {
+    display: flex;
+    
+}
+
+ul, ol {
+    list-style: none;
+    gap: 20px;
+}
+
+
+h1 {
+    color: black;
+    margin: 10px 10px;
+    display: inline-block;
+    width: 60%;
+    
+}
+
+h2 {
+    color: rgb(0, 106, 255);
+    margin: 10px 10px;
+    padding: 15px;
+    background-color: rgba(163, 0, 0, 0.537);
+    border-radius: 15px;
+    
+}
+
+h3 {
+    font-style: bold;
+    padding: 5px;
+    border-radius: 8px;
+    
+}
+
+p {
+    color: gray;
+    margin: 20px 20px;
+    font-size:20px;
+    font-family: Verdana;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Clases */
+
+.portada {
+    height: 100vh;
+    background-image: url(/img/ferrari-f50.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.portada-logo{
+    width: 200px;
+}
+
+.portada-titulo {
+    font-size: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50%;
+}
+
+@media (max-width: 1024px) {
+
+    .portada {
+        height: 300px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-template-rows: 25%;
+    }
+}
+
+.ferrari-portada {
+    margin-left: 100px;
+    width: 400px;
+}
+
+.ferrari-portada-2 {
+    margin-left: 100px;
+    width: 400px;
+}
+
+.lista-nav {
+    font-size: 24px;
+}
+
+.img-ferrari {
+    display: flex;
+    align-items: center;
+}
+
+.image {
+    width: 500px;
+    margin: 0px 50px 0px 50px;
+}
+
+.image-display {
+    display: flex;
+}
+
+.image-display-2 {
+    display: flex;
+}
+
+.image-historia {
+    width: 300px;
+    object-fit: cover;
+    margin: 15px;
+}
+
+.image-historia-2{
+    width: 300px;
+    object-fit: cover;
+    margin: 15px;
+}
+.logo {
+    width: 50px;
+    margin-left:20px;
+    margin-top: 20px;
+}
+
+
+.form {
+    border-style: solid;
+    border: 2px;
+    border-color: black;
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+/* footer */
+
+.titulo-footer {
+    background-color: rgb(252, 217, 204);
+    margin: 0;
+    padding: 10px;
+}
+
+.footer-display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+    
+}
+
+.facebook-img {
+    width: 20px;
+}
+
+.twitter-img {
+    width: 20px;
+}
+
+.instagram-img {
+    width: 20px;
+}
+
+.youtube-img {
+    width: 20px;
+}
+
+/* actualidad */
+
+table {
+    border: 1 solid black;
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+}
+
+/* Autos */
+
+.imagenes-auto {
+    width: 800px;
+}
+
+.ferrari-1 {
+    display: inline-block;
+}
