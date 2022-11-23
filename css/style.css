@@ -45,6 +45,7 @@ h2 {
     background-color: rgba(163, 0, 0, 0.537);
     border-radius: 15px;
     
+    
 }
 
 h3 {
@@ -155,6 +156,41 @@ a {
 }
 
 
+
+/* Ultimo section antes del footer */
+
+.productos {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    border: 5px solid black;
+    
+}
+
+
+.thumbnail {
+    width: 250px;
+}
+
+.articulo {
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+section article h3 {
+    padding: 0px 20px;
+}
+
+section article ul li {
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* formulario */
+
+
 .form {
     border-style: solid;
     border: 2px;
@@ -198,6 +234,17 @@ a {
 
 .youtube-img {
     width: 20px;
+}
+
+
+.footer-nav-display {
+    display: flex;
+    justify-content: flex-end;
+    background-color: rgb(204, 40, 40);
+    height: 100px;
+    align-items: center;
+    font-size: 24px;
+    padding: 30px;
 }
 
 /* actualidad */
