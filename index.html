@@ -5,6 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ferrari</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
@@ -19,14 +25,33 @@
       /></a>
       <h1>Ferrari</h1>
       <!-- nav -->
-      <nav>
-        <ul class="lista-nav">
-          <li><a href="./index.html">Inicio</a></li>
-          <li><a href="pages/autos.html">Autos</a></li>
-          <li><a href="pages/historia.html">Historia</a></li>
-          <li><a href="pages/actualidad.html">Actualidad</a></li>
-          <li><a href="pages/contacto.html">Contacto</a></li>
-        </ul>
+      
+      <nav class="navbar navbar-expand-xl">
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a href="./index.html" class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/autos.html" class="nav-link" href="#">Autos</a>
+              </li>
+              <li class="nav-item">
+                <a  href="pages/historia.html" class="nav-link" href="#">Historia</a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/actualidad.html" class="nav-link">Actualidad</a>
+              </li>
+              <li class="nav-item">
+                <a href="pages/contacto.html" class="nav-link">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
     </header>
 
@@ -35,128 +60,131 @@
     <main>
       <!-- Primer section -->
 
-      <section class="portada">
-        <div>
-          <h2 class="portada-titulo">Bienvenidos a la pagina de Ferrari</h2>
-        </div>
-      </section>
+      <div class="container">
+        <section class="portada">
+          <div>
+            <h2 class="portada-titulo">Bienvenidos a la pagina de Ferrari</h2>
+          </div>
+        </section>
 
-      <!-- Segundo section -->
+        <!-- Segundo section -->
 
-      <section class="grid">
-        <article>
-          <h2>El Ferrari SP51: Un toque de distinción</h2>
-          <img
-            class="ferrari-portada"
-            src="./img/ferrarisp51.jpg"
-            alt="ferrari portada"
-          />
-          <p>
-            Solo se fabricará un SP51 a medida para un cliente de Taiwán que
-            también es uno de los principales coleccionistas de Ferraris de todo
-            el mundo. Basado en la arquitectura del 812 GTS, el SP51 es un
-            spider con motor V12 delantero diseñado por el Centro Stile de
-            Ferrari que dirige Flavio Manzoni. La aerodinámica requirió un
-            perfeccionamiento meticuloso, un proceso que conllevó simulaciones
-            de conducción y pruebas en túnel de viento para garantizar que el
-            SP51 no solo tuviera lo último en comodidad en el habitáculo, sino
-            también el mismo nivel de comodidad acústica y sensación de viento
-            que el coche que lo inspiró. Estilísticamente lleva faros nuevos,
-            ruedas específicas para el modelo, dos arbotantes en la parte
-            posterior y pilotos traseros insertados bajo el alerón. La librea
-            azul y blanca también es muy especial: inspirada en el legendario
-            Ferrari 410 S de 1955, recorre todo el largo del automóvil y
-            complementa la pintura de tres capas «Rosso Passionale» desarrollada
-            expresamente para el SP51. Las ruedas ciertamente darán que hablar,
-            ya que cada uno de los radios lleva perfiles de fibra de carbono en
-            forma de alerón y un acabado de corte de diamante tono sobre tono.
-            De hecho, la fibra de carbono domina ampliamente el interior y el
-            exterior del vehículo, lo que permite mantener el peso al mínimo.
-          </p>
-        </article>
-        <article>
-          <h2>Sube la temperatura</h2>
-          <img
-            class="ferrari-portada-2"
-            src="./img/screenshot.png"
-            alt="ferrari portada 2"
-          />
-          <p>
-            Es posible que Charles Leclerc, piloto de Fórmula 1 de Ferrari, haya
-            agregado recientemente las artes culinarias a su repertorio, pero la
-            verdad es que cocinó todo un clásico cuando se puso al volante del
-            312 F1 «Spaghetti» de 1967
-          </p>
-          <h3>Pelicula - Oliver McIntyre</h3>
-          <p>
-            Maranello, verano de 2022: el piloto de Ferrari Charles Leclerc es
-            muy aficionado a la pasta, especialmente a los espaguetis. De hecho,
-            hace unos años aprendió a prepararlos a la carbonara. La temporada
-            pasada, en uno de los famosos C2 Challenges del equipo, preparó la
-            conocida receta, excepto que cambió los espaguetis por un tipo de
-            pasta más corta, lo que le dio la victoria a Carlos Sainz, su
-            compañero de equipo, al considerar el jurado que había preparado el
-            mejor plato.
-          </p>
-        </article>
-      </section>
+        <section class="grid">
+          <article>
+            <h2>El Ferrari SP51: Un toque de distinción</h2>
+            <img
+              class="ferrari-portada"
+              src="./img/ferrarisp51.jpg"
+              alt="ferrari portada"
+            />
+            <p>
+              Solo se fabricará un SP51 a medida para un cliente de Taiwán que
+              también es uno de los principales coleccionistas de Ferraris de
+              todo el mundo. Basado en la arquitectura del 812 GTS, el SP51 es
+              un spider con motor V12 delantero diseñado por el Centro Stile de
+              Ferrari que dirige Flavio Manzoni. La aerodinámica requirió un
+              perfeccionamiento meticuloso, un proceso que conllevó simulaciones
+              de conducción y pruebas en túnel de viento para garantizar que el
+              SP51 no solo tuviera lo último en comodidad en el habitáculo, sino
+              también el mismo nivel de comodidad acústica y sensación de viento
+              que el coche que lo inspiró. Estilísticamente lleva faros nuevos,
+              ruedas específicas para el modelo, dos arbotantes en la parte
+              posterior y pilotos traseros insertados bajo el alerón. La librea
+              azul y blanca también es muy especial: inspirada en el legendario
+              Ferrari 410 S de 1955, recorre todo el largo del automóvil y
+              complementa la pintura de tres capas «Rosso Passionale»
+              desarrollada expresamente para el SP51. Las ruedas ciertamente
+              darán que hablar, ya que cada uno de los radios lleva perfiles de
+              fibra de carbono en forma de alerón y un acabado de corte de
+              diamante tono sobre tono. De hecho, la fibra de carbono domina
+              ampliamente el interior y el exterior del vehículo, lo que permite
+              mantener el peso al mínimo.
+            </p>
+          </article>
+          <article>
+            <h2>Sube la temperatura</h2>
+            <img
+              class="ferrari-portada-2"
+              src="./img/screenshot.png"
+              alt="ferrari portada 2"
+            />
+            <p>
+              Es posible que Charles Leclerc, piloto de Fórmula 1 de Ferrari,
+              haya agregado recientemente las artes culinarias a su repertorio,
+              pero la verdad es que cocinó todo un clásico cuando se puso al
+              volante del 312 F1 «Spaghetti» de 1967
+            </p>
+            <h3>Pelicula - Oliver McIntyre</h3>
+            <p>
+              Maranello, verano de 2022: el piloto de Ferrari Charles Leclerc es
+              muy aficionado a la pasta, especialmente a los espaguetis. De
+              hecho, hace unos años aprendió a prepararlos a la carbonara. La
+              temporada pasada, en uno de los famosos C2 Challenges del equipo,
+              preparó la conocida receta, excepto que cambió los espaguetis por
+              un tipo de pasta más corta, lo que le dio la victoria a Carlos
+              Sainz, su compañero de equipo, al considerar el jurado que había
+              preparado el mejor plato.
+            </p>
+          </article>
+        </section>
 
-      <!-- Tercer section -->
-      <h2>Productos</h2>
-      <section class="productos">
-        <article>
-          <h3>Reloj Ferrari de cuarzo</h3>
-          <div class="articulo">
-            <img class="thumbnail" src="./img/ferrari-reloj.png" alt="" />
-            <ul>
-              <li>Disponibilidad: En stock</li>
-              <li>Marca: Ferrari</li>
-              <li>Peso con empaque: 0.397 kg</li>
-              <li>Producto con devolución</li>
-              <li>Producto de: Amazon</li>
-            </ul>
-          </div>
-        </article>
-        <article>
-          <h3>Gorra Trucker</h3>
-          <div class="articulo">
-            <img class="thumbnail" src="./img/Gorra-trucker.webp" alt="" />
-            <ul>
-              <li>Género: Sin género</li>
-              <li>Tipo de sombrero: Trucker</li>
-              <li>Temporada de lanzamiento: Primavera/Verano</li>
-              <li>Año de lanzamiento: 2022</li>
-              <li>Con cierre ajustable: Sí</li>
-            </ul>
-          </div>
-        </article>
-        <article>
-          <h3>Taza termica</h3>
-          <div class="articulo">
-            <img class="thumbnail" src="./img/taza-termica.png" alt="" />
-            <ul>
-              <li>Disponibilidad: En stock</li>
-              <li>Marca: Ferrari</li>
-              <li>Peso con empaque: 0.445 kg</li>
-              <li>Producto con devolución</li>
-              <li>Producto de: Amazon</li>
-            </ul>
-          </div>
-        </article>
-        <article>
-          <h3>Zapatillas ferrari</h3>
-          <div class="articulo">
-            <img class="thumbnail" src="./img/zapatillas.png" alt="" />
-            <ul>
-              <li>Caña baja</li>
-              <li>Empeine de malla con revestimientos sintéticos</li>
-              <li>Talonera moldeada de PU en forma de alerón</li>
-              <li>ProFoam para dar amortiguación y adaptabilidad</li>
-              <li>Suela exterior de goma</li>
-            </ul>
-          </div>
-        </article>
-      </section>
+        <!-- Tercer section -->
+        <h2>Productos</h2>
+        <section class="productos">
+          <article>
+            <h3>Reloj Ferrari de cuarzo</h3>
+            <div class="articulo">
+              <img class="thumbnail" src="./img/ferrari-reloj.png" alt="" />
+              <ul>
+                <li>Disponibilidad: En stock</li>
+                <li>Marca: Ferrari</li>
+                <li>Peso con empaque: 0.397 kg</li>
+                <li>Producto con devolución</li>
+                <li>Producto de: Amazon</li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <h3>Gorra Trucker</h3>
+            <div class="articulo">
+              <img class="thumbnail" src="./img/Gorra-trucker.webp" alt="" />
+              <ul>
+                <li>Género: Sin género</li>
+                <li>Tipo de sombrero: Trucker</li>
+                <li>Temporada de lanzamiento: Primavera/Verano</li>
+                <li>Año de lanzamiento: 2022</li>
+                <li>Con cierre ajustable: Sí</li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <h3>Taza termica</h3>
+            <div class="articulo">
+              <img class="thumbnail" src="./img/taza-termica.png" alt="" />
+              <ul>
+                <li>Disponibilidad: En stock</li>
+                <li>Marca: Ferrari</li>
+                <li>Peso con empaque: 0.445 kg</li>
+                <li>Producto con devolución</li>
+                <li>Producto de: Amazon</li>
+              </ul>
+            </div>
+          </article>
+          <article>
+            <h3>Zapatillas ferrari</h3>
+            <div class="articulo">
+              <img class="thumbnail" src="./img/zapatillas.png" alt="" />
+              <ul>
+                <li>Caña baja</li>
+                <li>Empeine de malla con revestimientos sintéticos</li>
+                <li>Talonera moldeada de PU en forma de alerón</li>
+                <li>ProFoam para dar amortiguación y adaptabilidad</li>
+                <li>Suela exterior de goma</li>
+              </ul>
+            </div>
+          </article>
+        </section>
+      </div>
     </main>
 
     <!-- Fin de mi main -->
@@ -237,5 +265,11 @@
     </footer>
 
     <!-- Fin de mi footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
