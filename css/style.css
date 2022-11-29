@@ -39,7 +39,7 @@ h1 {
 }
 
 h2 {
-    color: rgb(0, 106, 255);
+    color: black;
     margin: 10px 10px;
     padding: 15px;
     background-color: rgba(163, 0, 0, 0.537);
@@ -85,6 +85,12 @@ a {
 
 .portada-titulo {
     font-size: 40px;
+    color: yellow;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav-item {
+    font-size: 24px;
 }
 
 .grid {
@@ -118,13 +124,18 @@ a {
 
 
 .ferrari-portada {
-    margin-left: 100px;
+    margin-left: 0px;
     width: 400px;
 }
 
 .ferrari-portada-2 {
-    margin-left: 100px;
+    margin-left: 0px;
     width: 400px;
+}
+
+.ferrari-portada-flex {
+    display: flex;
+    justify-content: center;
 }
 
 .lista-nav {
@@ -241,6 +252,7 @@ a {
 .articulo {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 }
@@ -290,6 +302,15 @@ section article ul li {
     justify-content: space-between;
     margin: 15px;
     
+}
+
+@media (max-width: 630px) {
+
+    .footer-display{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .facebook-img {
