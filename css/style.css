@@ -270,7 +270,8 @@ a {
     
 }
 
-.articulo {
+
+.articulo-div {
     display: flex;
     align-items: center;
     padding: 0px 20px;
@@ -278,13 +279,19 @@ a {
 }
 
 @media (max-width: 724px) {
-    
+
+
 .articulo {
+    margin-top: 100px;
+}
+    
+.articulo-div {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin: 0px 0px;
 }
+
 
 }
 
