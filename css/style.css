@@ -170,21 +170,10 @@ a {
 }
 
 
-.ferrari-1 {
+.ferrariAuto {
     display: flex;
 }
 
-.ferrari-2 {
-    display: flex;
-}
-
-.ferrari-3 {
-    display: flex;
-}
-
-.ferrari-4 {
-    display: flex;
-}
 
 
 
@@ -208,30 +197,29 @@ a {
 
 @media (max-width: 1000px) {
 
-    .ferrari-1 {
+    .ferrariAuto {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
-    .ferrari-2 {
+    .ferrariAuto {
         display: flex;
         flex-direction: column;
         align-items: center;
 
     }
     
-    .ferrari-3 {
+    .ferrariAuto {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
     
-    .ferrari-4 {
+    .ferrariAuto {
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center;
         
     }
 
@@ -240,7 +228,16 @@ a {
 @media (max-width: 500px) {
 
     .foto-auto {
-        width: 300px;
+        width: 200px;
+    }
+
+    .foto-autoLaFerrari {
+        width: 200px;
+        height: 100px;
+    }
+
+    p {
+        font-size: 14px;
     }
 }
 
@@ -360,6 +357,12 @@ section article ul li {
 
 /* formulario */
 
+.formulario {
+    display: flex;
+    flex-direction: column;
+    
+}
+
 
 .form {
     border-style: solid;
@@ -372,6 +375,14 @@ section article ul li {
     display: flex;
     justify-content: center;
     margin: 15px;
+}
+
+.botonForm {
+    background-color: rgb(153, 76, 235);
+    border: 1px none black;
+    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 5px 3px;
 }
 
 /* footer */
