@@ -19,6 +19,7 @@ header {
     
 }
 
+
 header ul {
     display: flex;
     
@@ -81,7 +82,9 @@ a {
 }
 
 .portada-logo{
-    width: 200px;
+    width: 50%;
+    max-width: 200px;
+    min-width: 100px;
 }
 
 .portada-titulo {

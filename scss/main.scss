@@ -1,0 +1,14 @@
+@import "./utils/variables";
+@import "./utils/mixin";
+
+
+@import "./base/base";
+
+
+@import "./components/botones";
+@import "./components/navbar";
+
+
+@import "./pages/index";
+@import "./pages/autos";
+@import "./pages/contacto";
