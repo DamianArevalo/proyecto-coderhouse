@@ -1,18 +1,152 @@
-body {
-    background-color: rgb(252, 217, 204);
+.portada {
+    height: 100vh;
+    background-image: url(../img/ferrari-f50.webp);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-header {
-    background-color: rgb(204, 40, 40);
-    padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.portada-logo{
+    width: 50%;
+    max-width: 200px;
+    min-width: 100px;
+}
 
-    ul {
+.portada-titulo {
+    font-size: 30px;
+    color: $color-titulo;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50%;
+    width: 100%;
+
+    .ferrari-portada-flex {
         display: flex;
+        justify-content: center;
+        overflow: hidden;
+
+        .ferrari-portada {
+            margin-left: 0px;
+            width: 400px;
+            transition-duration: 0.5s;
+            
+        }
+
+        .ferrari-portada-2 {
+            margin-left: 0px;
+            width: 400px;
+            transition-duration: 0.5s;
+        }
+    }
+   
+}
+
+@media (min-width:1025px) {
+    .portada {
+        height: 500px;
+    }
+}
+
+@media (max-width: 1024px) {
+
+    .portada {
+        height: 300px;
     }
 
+    .grid {
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-template-rows: repeat(2, auto);
+
     
+    }
+
+}
+
+
+
+.ferrari-portada:hover {
+    transform: scale(1.5);
     
+}
+
+.ferrari-portada-2:hover {
+    transform: scale(1.5);
+}
+
+
+
+.img-ferrari {
+    display: flex;
+    align-items: center;
+}
+
+.productos {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(2, auto);
+    border: 2px solid black;
+
+    .articulo-div {
+        display: flex;
+        align-items: center;
+        padding: 0px 25px;
+        overflow: hidden;
+        
+    }
+
+    .thumbnail {
+        width: 250px;
+        transition-duration: 0.5s;
+        transition-timing-function: ease;
+        
+    }
+    
+}
+
+@media (max-width: 1024px) {
+
+
+    .productos {
+        display: grid;
+        grid-template-columns: 100% ;
+        grid-template-rows: 25%;
+    }
+
+}
+
+
+
+
+.thumbnail:hover {
+    transform: scale(1.5);
+    cursor: pointer;
+    
+}
+
+
+
+@media (max-width: 724px) {
+
+
+.articulo {
+    margin-top: 100px;
+}
+    
+.articulo-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px 0px;
+}
+
+
 }

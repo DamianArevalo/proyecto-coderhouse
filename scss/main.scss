@@ -7,8 +7,12 @@
 
 @import "./components/botones";
 @import "./components/navbar";
+@import "./components/header";
+@import "./components/footer";
 
 
 @import "./pages/index";
+@import "./pages/actualidad";
+@import "./pages/historia";
 @import "./pages/autos";
-@import "./pages/contacto";
+@import "./pages/formulario"

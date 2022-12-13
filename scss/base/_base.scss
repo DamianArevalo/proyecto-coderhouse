@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    background-color: $color-primario;
+}
+
+
+
+h1 {
+    color: $color-titulo;
+    margin: 10px 10px;
+    display: inline-block;
+    width: 60%;
+    
+}
+
+h2 {
+    color: $color-titulo;
+    margin: 10px 10px;
+    padding: 15px;
+    background-color: rgba(163, 0, 0, 0.537);
+    border-radius: 15px;
+    background: linear-gradient(to right, rgba(0, 128, 0, 0.650) 0% 30%, rgba(255, 255, 255, 0.650) 36% 63%, rgba(255, 0, 0, 0.650) 69% 100%);
+    
+    
+}
+
+h3 {
+    font-style: bold;
+    padding: 25px;
+    border-radius: 8px;
+    
+}
+
+p {
+    color: gray;
+    margin: 20px 20px;
+    font-size:20px;
+    font-family: Verdana;
+}
+
+a {
+    text-decoration: none;
+}

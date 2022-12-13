@@ -1,0 +1,19 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.form {
+    border-style: solid;
+    border: 2px;
+    border-color: black;
+
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
