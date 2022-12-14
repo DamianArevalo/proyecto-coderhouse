@@ -57,6 +57,7 @@ a {
 .botonForm:hover {
   background-color: rgb(87, 19, 151);
   transform: scale(1.2);
+  transition-duration: 0.3s;
 }
 
 .nav-item {
