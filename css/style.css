@@ -47,11 +47,16 @@ a {
 }
 
 .botonForm {
-  background-color: rgb(153, 76, 235);
+  background-color: blueviolet;
   border: 1px none black;
   border-radius: 10px;
   padding: 10px 10px;
   margin: 5px 3px;
+}
+
+.botonForm:hover {
+  background-color: rgb(87, 19, 151);
+  transform: scale(1.2);
 }
 
 .nav-item {
@@ -150,7 +155,6 @@ header ul {
 .grid .ferrari-portada-flex {
   display: flex;
   justify-content: center;
-  overflow: hidden;
 }
 .grid .ferrari-portada-flex .ferrari-portada {
   margin-left: 0px;
@@ -161,6 +165,11 @@ header ul {
   margin-left: 0px;
   width: 400px;
   transition-duration: 0.5s;
+}
+@media (max-width: 500px) {
+  .grid .ferrari-portada-flex {
+    overflow: hidden;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -201,7 +210,14 @@ header ul {
   display: flex;
   align-items: center;
   padding: 0px 25px;
-  overflow: hidden;
+}
+@media (max-width: 500px) {
+  .productos .articulo-div {
+    display: flex;
+    align-items: center;
+    padding: 0px 25px;
+    overflow: hidden;
+  }
 }
 .productos .thumbnail {
   width: 250px;
@@ -285,21 +301,6 @@ table {
   }
 }
 @media (max-width: 1000px) {
-  .ferrariAuto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .ferrariAuto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .ferrariAuto {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
   .ferrariAuto {
     display: flex;
     flex-direction: column;

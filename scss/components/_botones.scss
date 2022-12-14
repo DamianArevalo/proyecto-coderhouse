@@ -5,9 +5,14 @@
 
 
 .botonForm {
-    background-color: rgb(153, 76, 235);
+    background-color: $color-boton;
     border: 1px none black;
     border-radius: 10px;
     padding: 10px 10px;
     margin: 5px 3px;
+}
+
+.botonForm:hover {
+    background-color: rgb(87, 19, 151);
+    transform: scale(1.2);  
 }
