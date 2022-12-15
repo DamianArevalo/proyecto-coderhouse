@@ -125,16 +125,6 @@ header ul {
   padding: 10px;
 }
 
-.portada {
-  height: 100vh;
-  background-image: url(../img/ferrari-f50.webp);
-  background-position: center;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .portada-logo {
   width: 50%;
   max-width: 200px;
@@ -145,6 +135,9 @@ header ul {
   font-size: 30px;
   color: black;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid {

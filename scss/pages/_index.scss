@@ -1,13 +1,4 @@
-.portada {
-    height: 100vh;
-    background-image: url(../img/ferrari-f50.webp);
-    background-position: center;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
+
 
 .portada-logo{
     width: 50%;
@@ -19,6 +10,10 @@
     font-size: 30px;
     color: $color-titulo;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 
