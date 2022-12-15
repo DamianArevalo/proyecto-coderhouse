@@ -52,6 +52,17 @@ a {
   transition-duration: 0.3s;
 }
 
+.btn-primary {
+  background-color: blueviolet;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: rgb(87, 19, 151);
+  transform: scale(1.2);
+  transition-duration: 0.14s;
+}
+
 .botonForm {
   background-color: blueviolet;
   border: 1px none black;

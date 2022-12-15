@@ -10,6 +10,17 @@
 }
 
 
+.btn-primary {
+    background-color: $color-boton;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: rgb(87, 19, 151);
+    transform: scale(1.2);  
+    transition-duration: 0.14s;
+}
+
 .botonForm {
     background-color: $color-boton;
     border: 1px none black;
