@@ -3,6 +3,12 @@
     background-color: lightcoral;
 }
 
+.boton:hover {
+    background-color: rgb(143, 75, 75);
+    transform: scale(1.2);
+    transition-duration: 0.3s;
+}
+
 
 .botonForm {
     background-color: $color-boton;
