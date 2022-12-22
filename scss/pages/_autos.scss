@@ -7,7 +7,7 @@
         display: flex;
 
         .foto-auto {
-            width: 500px;
+            width: 100%;
             box-shadow: 0px 0px 30px 10px;
         }
     }
@@ -19,9 +19,9 @@
     }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 1001px) {
 
-    .foto-auto {
+    .contenedor-fotos-auto .ferrariAuto .foto-auto {
         width: 400px;
     }
 }
@@ -39,11 +39,11 @@
 
 @media (max-width: 500px) {
 
-    .foto-auto {
+    .contenedor-fotos-auto .ferrariAuto .foto-auto {
         width: 200px;
     }
 
-    .foto-autoLaFerrari {
+    .contenedor-fotos-auto .ferrariAuto .foto-autoLaFerrari {
         width: 200px;
         height: 100px;
     }

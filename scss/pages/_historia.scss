@@ -10,3 +10,17 @@
     box-shadow: 0px 0px 30px 5px;
 }
 
+@media (max-width: 500px) {
+    .image-display {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .image-historia {
+        width: 200px;
+        object-fit: cover;
+        margin: 15px;
+        box-shadow: 0px 0px 30px 5px;
+    }
+    
+}

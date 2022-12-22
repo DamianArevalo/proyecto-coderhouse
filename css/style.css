@@ -262,13 +262,19 @@ header ul {
     margin: 0px 0px;
   }
 }
-table {
+.table tr {
   border: 1 solid black;
   display: flex;
   justify-content: center;
   margin: 40px;
 }
 
+@media (max-width: 500px) {
+  .table tr {
+    font-size: 10px;
+    margin: 0px;
+  }
+}
 .image-display {
   display: flex;
 }
@@ -280,6 +286,18 @@ table {
   box-shadow: 0px 0px 30px 5px;
 }
 
+@media (max-width: 500px) {
+  .image-display {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-historia {
+    width: 200px;
+    object-fit: cover;
+    margin: 15px;
+    box-shadow: 0px 0px 30px 5px;
+  }
+}
 .contenedor-fotos-auto {
   display: flex;
   flex-direction: column;
@@ -289,7 +307,7 @@ table {
   display: flex;
 }
 .contenedor-fotos-auto .ferrariAuto .foto-auto {
-  width: 500px;
+  width: 100%;
   box-shadow: 0px 0px 30px 10px;
 }
 .contenedor-fotos-auto .foto-autoLaFerrari {
@@ -298,8 +316,8 @@ table {
   height: 250px;
 }
 
-@media (max-width: 1200px) {
-  .foto-auto {
+@media (min-width: 1001px) {
+  .contenedor-fotos-auto .ferrariAuto .foto-auto {
     width: 400px;
   }
 }
@@ -311,10 +329,10 @@ table {
   }
 }
 @media (max-width: 500px) {
-  .foto-auto {
+  .contenedor-fotos-auto .ferrariAuto .foto-auto {
     width: 200px;
   }
-  .foto-autoLaFerrari {
+  .contenedor-fotos-auto .ferrariAuto .foto-autoLaFerrari {
     width: 200px;
     height: 100px;
   }
