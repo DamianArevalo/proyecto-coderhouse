@@ -79,6 +79,16 @@ ul li a {
 
 .nav-item {
   font-size: 24px;
+  background-color: rgb(252, 217, 204);
+  margin: 10px 10px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.nav-link:hover {
+  color: white;
+  background-color: blueviolet;
+  border-radius: 10px;
 }
 
 header {

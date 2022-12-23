@@ -1,3 +1,18 @@
 .nav-item {
     font-size: 24px;
+    background-color: $color-primario;
+    margin: 10px 10px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.nav-link:hover {
+    color: white;
+    background-color: blueviolet;
+    border-radius: 10px;
+    
+}
+
+.nav-link active {
+
 }
