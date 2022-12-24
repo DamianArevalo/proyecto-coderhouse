@@ -80,9 +80,19 @@ ul li a {
 .nav-item {
   font-size: 24px;
   background-color: rgb(252, 217, 204);
-  margin: 10px 10px;
+  margin: 5px 5px;
   border-radius: 10px;
   object-fit: cover;
+  padding: 0px 0px;
+}
+@media (max-width: 1200px) {
+  .nav-item {
+    font-size: 20px;
+  }
+}
+
+.nav-link {
+  padding: 0px 0px;
 }
 
 .nav-link:hover {
