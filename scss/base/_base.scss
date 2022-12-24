@@ -43,6 +43,13 @@ p {
     font-family: Verdana;
 }
 
-ul li a {
-    text-decoration: none;
+ul  {
+    
+    li {
+        list-style: none;
+
+        a {
+            text-decoration: none;
+        }
+    }
 }

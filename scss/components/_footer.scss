@@ -5,6 +5,7 @@
 }
 
 .footer-display {
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -35,20 +36,4 @@
 
 .youtube-img {
     width: 20px;
-}
-
-
-.footer-nav-display {
-    display: flex;
-    justify-content: flex-end;
-    background-color: rgb(204, 40, 40);
-    height: 100px;
-    align-items: center;
-    font-size: 24px;
-    padding: 30px;
-    list-style: none;
-
-    li {
-        padding: 10px;
-    }
 }
