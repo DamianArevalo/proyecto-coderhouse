@@ -1,7 +1,6 @@
 .contenedor-fotos-auto {
-    display: flex;
+    @include flexbox (start, center);
     flex-direction: column;
-    align-items: center;
 
     .ferrariAuto {
         display: flex;
@@ -22,16 +21,15 @@
 @media (min-width: 1001px) {
 
     .contenedor-fotos-auto .ferrariAuto .foto-auto {
-        width: 400px;
+        width: 500px;
     }
 }
 
 @media (max-width: 1000px) {
 
     .ferrariAuto {
-        display: flex;
+        @include flexbox (start, center);
         flex-direction: column;
-        align-items: center;
     }
     
 

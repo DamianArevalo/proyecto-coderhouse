@@ -110,8 +110,9 @@ header ul {
 
 .footer-display {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
+  align-items: start;
+  flex-direction: row;
   margin: 15px;
 }
 
@@ -294,8 +295,9 @@ header ul {
 }
 .contenedor-fotos-auto {
   display: flex;
-  flex-direction: column;
+  justify-content: start;
   align-items: center;
+  flex-direction: column;
 }
 .contenedor-fotos-auto .ferrariAuto {
   display: flex;
@@ -312,14 +314,15 @@ header ul {
 
 @media (min-width: 1001px) {
   .contenedor-fotos-auto .ferrariAuto .foto-auto {
-    width: 400px;
+    width: 500px;
   }
 }
 @media (max-width: 1000px) {
   .ferrariAuto {
     display: flex;
-    flex-direction: column;
+    justify-content: start;
     align-items: center;
+    flex-direction: column;
   }
 }
 @media (max-width: 500px) {
@@ -348,6 +351,7 @@ header ul {
 .form-container {
   display: flex;
   justify-content: center;
+  align-items: start;
   margin: 15px;
 }
 

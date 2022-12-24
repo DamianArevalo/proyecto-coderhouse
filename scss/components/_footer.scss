@@ -5,10 +5,8 @@
 }
 
 .footer-display {
-    
-    display: flex;
+    @include flexbox (space-between, start);
     flex-direction: row;
-    justify-content: space-between;
     margin: 15px;
     
 }

@@ -1,9 +1,7 @@
 header {
     background-color: rgb(204, 40, 40);
     padding: 15px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include flexbox (space-between, center);
 
     ul {
         display: flex;

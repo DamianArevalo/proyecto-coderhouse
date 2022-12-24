@@ -13,8 +13,7 @@
 }
 
 .form-container {
-    display: flex;
-    justify-content: center;
+    @include flexbox (center, start);
     margin: 15px;
 }
 
